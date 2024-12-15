@@ -1,0 +1,86 @@
+body{
+    font-family:  cursive;
+}
+
+header{
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    transition: .5s;
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #09c !important;
+}
+
+.navBar{
+    z-index: 1000;
+}
+.card{
+    transition: .5s;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.detail{
+    z-index: 2000;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    position: relative;
+  }
+  
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: bounce 1.5s infinite ease-in-out;
+  }
+  
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+  }
+  
+  .arc {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    border: 5px solid transparent;
+    border-top: 5px solid #3498db;
+    animation: rotate 1.5s infinite linear;
+  }
+  
+
+  .arc-2 {
+    border-top: 5px solid #e74c3c;
+    animation: rotate 1.5s infinite linear reverse;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+
